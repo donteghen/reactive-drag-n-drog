@@ -8,11 +8,19 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
-    background-color: #f5f5f5;
+    height: 100%;
+    background-color: #360550;
+    margin: 30px;
 }
-
+.header {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
 .app-container {
     width: 100%;
     display: flex;
@@ -23,8 +31,8 @@ body {
 
 .widget-container {
     width: 250px;
-    background-color: #ffffff;
-    border: 2px solid #ddd;
+    background-color: #7010a3;
+    border: 4px solid #a035da;
     border-radius: 8px;
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -37,7 +45,7 @@ body {
 }
 
 .widget {
-    background-color: #007bff;
+    background-color: #b849f4;
     color: white;
     padding: 10px;
     text-align: center;
@@ -49,5 +57,21 @@ body {
 
 .widget:active {
     cursor: grabbing;
-    opacity: 0.8; /* Slightly transparent while dragging */
+    opacity: 0.6; /* Slightly transparent while dragging */
+}
+
+h2 {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.count {
+    padding: 4px 8px;
+    margin-right: 2px;
+    border-radius: 20px;  
+    background: white;
+    color: #9b16e3;  
 }
